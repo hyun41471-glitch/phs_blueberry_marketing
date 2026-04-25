@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>BlueBerry Bloom</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <a href="#home" class="logo">BlueBerry Bloom</a>
+
+            <button class="menu-toggle" id="menuToggle">
+                ☰
+            </button>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home">홈페이지</a></li>
+                <li><a href="#product">제품</a></li>
+                <li><a href="#story">스토리</a></li>
+                <li><a href="#contact">문의</a></li>
+                <li><a href="en.html" class="lang-btn">EN</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-text">
+            <p class="hero-label">Premium Blueberry Brand</p>
+            <h1>한 알에 담긴<br />신선한 달콤함</h1>
+            <p class="hero-desc">
+                자연이 키운 프리미엄 블루베리로 건강하고 상큼한 하루를 시작해보세요.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#product" class="btn primary-btn">제품 보기</a>
+                <a href="#story" class="btn secondary-btn">스토리 보기</a>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <img src="assets/blueberry.png" alt="프리미엄 블루베리 이미지" />
+        </div>
+    </section>
+
+    <!-- Product Section -->
+    <section class="section product-section" id="product">
+        <div class="section-title">
+            <p>Our Product</p>
+            <h2>프리미엄 블루베리</h2>
+            <span>
+                신선함, 달콤함, 건강함을 모두 담은 BlueBerry Bloom의 대표 제품입니다.
+            </span>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image">
+                <img src="assets/blueberry.png" alt="블루베리 제품" />
+            </div>
+
+            <div class="product-info">
+                <h3>Fresh Premium Blueberry</h3>
+                <p>
+                    엄선된 블루베리만을 사용하여 신선한 맛과 풍부한 영양을 제공합니다.
+                    간식, 요거트, 샐러드, 디저트 등 다양한 방식으로 즐길 수 있습니다.
+                </p>
+
+                <ul class="product-list">
+                    <li>✔ 신선한 프리미엄 품질</li>
+                    <li>✔ 상큼하고 진한 블루베리 향</li>
+                    <li>✔ 건강한 하루를 위한 자연 간식</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="section features-section">
+        <div class="section-title">
+            <p>Features</p>
+            <h2>BlueBerry Bloom의 장점</h2>
+            <span>
+                작은 한 알에도 건강과 신선함을 가득 담았습니다.
+            </span>
+        </div>
+
+        <div class="features">
+            <div class="feature-card">
+                <div class="icon">🫐</div>
+                <h3>신선한 품질</h3>
+                <p>엄선한 블루베리만 사용하여 신선하고 깔끔한 맛을 제공합니다.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="icon">🌿</div>
+                <h3>자연의 맛</h3>
+                <p>자연에서 자란 블루베리 본연의 상큼함과 달콤함을 느낄 수 있습니다.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="icon">💪</div>
+                <h3>영양 가득</h3>
+                <p>비타민과 항산화 성분이 풍부해 건강한 식습관에 도움을 줍니다.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="icon">🎁</div>
+                <h3>선물용 패키지</h3>
+                <p>깔끔한 포장으로 가족, 친구, 소중한 사람에게 선물하기 좋습니다.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Story Section -->
+    <section class="section story-section" id="story">
+        <div class="story-content">
+            <p class="section-small-title">Brand Story</p>
+            <h2>좋은 블루베리는 좋은 환경에서 시작됩니다.</h2>
+            <p>
+                BlueBerry Bloom은 신선함과 품질을 가장 중요하게 생각합니다.
+                매일 믿고 먹을 수 있는 블루베리를 제공하기 위해 좋은 원료를 엄선하고,
+                자연의 맛을 그대로 전달하는 것을 목표로 합니다.
+            </p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+        <div class="section-title">
+            <p>Contact</p>
+            <h2>문의하기</h2>
+            <span>제품에 대해 궁금한 점이 있다면 아래 양식을 작성해주세요.</span>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+            <input type="text" placeholder="이름" required />
+            <input type="email" placeholder="이메일" required />
+            <textarea placeholder="문의 내용을 입력하세요." required></textarea>
+            <button type="submit" class="btn primary-btn">문의 보내기</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2026 BlueBerry Bloom. All Rights Reserved.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
